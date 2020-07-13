@@ -25,11 +25,6 @@ public class AbrirTarifario implements Task {
                 CambiarPestana.aNuevaPestana()
                 //SendKeys.of(Keys.CONTROL +"\t").into(BODY)
         );
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
 
     }
 
